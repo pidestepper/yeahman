@@ -1,5 +1,7 @@
 -- Well done blackie you found it
 
+if getexecutorname() == "Solara" then return game.Players.LocalPlayer:Kick("You Do Not Need To Execute This As You Are Using A Free Executor") end
+
 local getinfo = getinfo or debug.getinfo
 local DEBUG = false
 local Hooked = {}
